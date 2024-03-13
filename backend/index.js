@@ -13,7 +13,7 @@ app.use(express.json());
 // Option 1: Allow All Origins with Default of cors(*)
 app.use(cors());
 // Option 2: Allow Custom Origins
-// app.use(
+// app.use(a
 //   cors({
 //     origin: 'http://localhost:3000',
 //     methods: ['GET', 'POST', 'PUT', 'DELETE'],
